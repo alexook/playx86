@@ -24,7 +24,7 @@ done:
 
 
 msg:
-	.asciz "this is a fucking operating system\r\n"
+	.asciz "this is a toy operating system\r\n"
 
 .org SECT_SIZE - 2
 .byte 0x55, 0xAA
